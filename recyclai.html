@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecyclAI - AI-Powered Waste Classification | SmartWaste Systems</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Glassy Navigation -->
+    <nav class="nav-container">
+        <div class="nav-glass">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <span class="logo-text">SmartWaste</span>
+                        <span class="logo-accent">Systems</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="recyclai.html" class="nav-link active">RecyclAI</a></li>
+                    <li><a href="#smartbin" class="nav-link">SmartBin</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero recyclai-hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">RecyclAI</span>
+                </h1>
+                <p class="hero-subtitle">
+                    AI-Powered Waste Classification at Your Fingertips
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://recycl-ai.com/next_page" target="_blank" class="btn btn-primary">Try the Demo</a>
+                    <button class="btn btn-secondary">See it in Action</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="recyclai-visual">
+                    <div class="ai-scanner">
+                        <div class="scanner-frame">
+                            <div class="scan-line"></div>
+                            <div class="scan-corners">
+                                <div class="corner top-left"></div>
+                                <div class="corner top-right"></div>
+                                <div class="corner bottom-left"></div>
+                                <div class="corner bottom-right"></div>
+                            </div>
+                        </div>
+                        <div class="classification-result">
+                            <div class="result-icon">♻️</div>
+                            <div class="result-text">Recyclable</div>
+                            <div class="confidence">95% Confidence</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is RecyclAI Section -->
+    <section id="about-recyclai" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What is RecyclAI?</h2>
+            </div>
+            <div class="content-card">
+                <p class="large-text">
+                    RecyclAI is a smart waste classification tool powered by computer vision and machine learning. 
+                    It identifies whether an item is recyclable, organic, or e-waste in real time. Designed for 
+                    integration with smart bins, kiosks, and mobile apps, RecyclAI helps users make environmentally 
+                    responsible disposal decisions instantly—reducing contamination rates and improving recycling 
+                    success across institutions, municipalities, and homes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section-padding bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Simple, fast, and accurate waste classification in four steps</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">📸</div>
+                    <h3 class="step-title">Image Input</h3>
+                    <p class="step-description">
+                        Users take a photo of an item using their phone or smart bin camera. 
+                        The system captures clear images for optimal classification accuracy.
+                    </p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">🧠</div>
+                    <h3 class="step-title">AI Classification</h3>
+                    <p class="step-description">
+                        The image is analyzed by a trained neural network using TensorFlow Lite model 
+                        that processes thousands of waste item patterns instantly.
+                    </p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">🏷️</div>
+                    <h3 class="step-title">Category Prediction</h3>
+                    <p class="step-description">
+                        The item is sorted into one of three categories: Recyclable, Organic, or E-Waste 
+                        with confidence scores for each prediction.
+                    </p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">✅</div>
+                    <h3 class="step-title">Action Prompt</h3>
+                    <p class="step-description">
+                        The user is guided with clear instructions on proper disposal methods 
+                        or redirection to appropriate waste streams.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Use Cases</h2>
+                <p class="section-subtitle">Versatile deployment across multiple environments</p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">🗑️</div>
+                    <h3 class="use-case-title">Smart Bins</h3>
+                    <p class="use-case-description">
+                        Real-time waste sorting assistance in public places, offices, and campuses 
+                        with integrated camera systems and instant feedback.
+                    </p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🎓</div>
+                    <h3 class="use-case-title">Educational Campaigns</h3>
+                    <p class="use-case-description">
+                        Teach students about waste categories interactively through gamified 
+                        learning experiences and real-time classification challenges.
+                    </p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">📱</div>
+                    <h3 class="use-case-title">Mobile Apps</h3>
+                    <p class="use-case-description">
+                        Help consumers check how to dispose of tricky items at home with 
+                        instant photo-based classification and disposal guidance.
+                    </p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🏭</div>
+                    <h3 class="use-case-title">Recycling Centers</h3>
+                    <p class="use-case-description">
+                        Pre-sorting validation and operator assistance to improve efficiency 
+                        and reduce manual sorting errors in processing facilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="section-padding bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technology Behind It</h2>
+                <p class="section-subtitle">Cutting-edge AI architecture optimized for real-world deployment</p>
+            </div>
+            <div class="tech-content">
+                <div class="tech-description">
+                    <p class="large-text">
+                        RecyclAI uses a lightweight TensorFlow Lite image classification model deployed either 
+                        locally on edge devices (like Raspberry Pi) or remotely via a cloud API. The model is 
+                        trained on thousands of labeled waste images across key categories and is optimized for 
+                        speed, accuracy, and minimal compute.
+                    </p>
+                </div>
+                <div class="tech-specs">
+                    <div class="spec-item">
+                        <div class="spec-label">Model Architecture</div>
+                        <div class="spec-value">TensorFlow Lite CNN</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-label">Training Dataset</div>
+                        <div class="spec-value">50,000+ labeled images</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-label">Classification Speed</div>
+                        <div class="spec-value">&lt; 200ms response time</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-label">Accuracy Rate</div>
+                        <div class="spec-value">94.7% on test data</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-label">Hardware Support</div>
+                        <div class="spec-value">Raspberry Pi, Mobile, Cloud</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-label">Categories</div>
+                        <div class="spec-value">Recyclable, Organic, E-Waste</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Demo Section -->
+    <section id="demo" class="section-padding">
+        <div class="container">
+            <div class="demo-two-column">
+                <div class="demo-content">
+                    <h2 class="demo-title">Try the Demo</h2>
+                    <p class="demo-description">
+                        Experience RecyclAI's powerful waste classification technology in action. 
+                        Our AI can instantly identify and categorize waste items with 96% accuracy, 
+                        helping you make the right disposal decisions every time.
+                    </p>
+                    <div class="demo-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">⚡</span>
+                            <span class="feature-text">Instant Classification</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🎯</span>
+                            <span class="feature-text">96% Accuracy Rate</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🌱</span>
+                            <span class="feature-text">5 Waste Categories</span>
+                        </div>
+                    </div>
+                    <div class="demo-actions">
+                        <a href="https://recycl-ai.com/next_page" target="_blank" class="btn btn-primary btn-large">
+                            Try Live Demo
+                        </a>
+                        <p class="demo-note">Opens in a new tab for the best experience</p>
+                    </div>
+                </div>
+                <div class="demo-video">
+                    <div class="video-container">
+                        <video 
+                            class="demo-video-player" 
+                            autoplay 
+                            muted 
+                            loop 
+                            playsinline
+                            poster="assets/images/video-poster.jpg">
+                            <source src="assets/demo.MP4" type="video/mp4">
+                            <div class="video-fallback">
+                                <div class="fallback-content">
+                                    <div class="fallback-icon">🎬</div>
+                                    <h3>Demo Video</h3>
+                                    <p>Place your demo.MP4 file in the assets folder to display the video here.</p>
+                                </div>
+                            </div>
+                        </video>
+                        <div class="video-overlay">
+                            <div class="play-button" id="playButton">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                                    <circle cx="30" cy="30" r="30" fill="rgba(255, 255, 255, 0.9)"/>
+                                    <path d="M23 20L40 30L23 40V20Z" fill="#2563eb"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="section-padding bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Environmental Impact</h2>
+                <p class="section-subtitle">Measurable results for a sustainable future</p>
+            </div>
+            <div class="impact-stats">
+                <div class="stat-card">
+                    <div class="stat-number">40%</div>
+                    <div class="stat-label">Reduction in recycling contamination</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">60%</div>
+                    <div class="stat-label">Decrease in sorting costs for municipalities</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10M+</div>
+                    <div class="stat-label">Items classified across pilot programs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">User satisfaction rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Partners Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "RecyclAI helped us reduce contamination in our school recycling bins by half within a month. 
+                        Students love the interactive experience and are learning proper waste disposal habits."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-name">Sarah Johnson</div>
+                        <div class="author-title">Sustainability Coordinator, Metro School District</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "The accuracy and speed of RecyclAI has transformed our waste management operations. 
+                        We've seen significant cost savings and improved recycling rates across all our facilities."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-name">Michael Chen</div>
+                        <div class="author-title">Operations Manager, GreenTech Corp</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Deploy RecyclAI?</h2>
+                <p class="cta-subtitle">
+                    Join leading organizations using RecyclAI to improve waste management, 
+                    reduce contamination, and create more sustainable communities.
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large">Request a Pilot Program</button>
+                    <button class="btn btn-outline btn-large">Download Technical Specs</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">SmartWaste</span>
+                        <span class="logo-accent">Systems</span>
+                    </div>
+                    <p class="footer-description">
+                        AI-powered waste management for a cleaner, smarter planet.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Products</h4>
+                        <ul>
+                            <li><a href="recyclai.html">RecyclAI</a></li>
+                            <li><a href="#smartbin">SmartBin</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Company</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SmartWaste Systems. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="recyclai-script.js"></script>
+</body>
+</html>
